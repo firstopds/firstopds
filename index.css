@@ -1,0 +1,26 @@
+.header{
+    border: 1px solid black;
+    height: 10vh;
+}
+
+.sec1{
+    border: 1px solid black;
+    height: 25vh;
+}
+
+.sec2{
+    border: 1px solid rgb(207, 23, 23);
+    height: 25vh;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec2 .whatsapp{
+    background-color: #25D366;
+}
+
+.footer{
+    border: 1px solid black;
+    height: 20vh;
+}
