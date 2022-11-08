@@ -34,7 +34,7 @@
 }
 
 .sec2 .whatsapp {
-  background: url(./images/WahtsAppBG.jpg);
+  background: url(../images/WahtsAppBG.jpg);
   border-radius: 0px 0px 70px 0px;
   color: white;
   text-align: center;
@@ -67,16 +67,11 @@
 }
 
 .sec2 .offerPercent {
-  font-family: "Bungee Inline", cursive;
+  font-family: "Bungee Inline";
   font-weight: bolder;
   margin: 0px;
 }
 
 .sec2 .onFirstOrder {
   font-size: 22px;
-}
-
-.footer {
-  border: 1px solid black;
-  height: 20vh;
 }
