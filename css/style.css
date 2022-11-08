@@ -1,67 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
 
-.header{
-    border: 1px solid black;
-    height: 10vh;
+.navbar-nav .nav-link.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  transition: 0.5s;
+  background-color: blue;
+}
+.navbar-nav .nav-link.active:hover:after {
+  width: 100%;
 }
 
-.sec1{
-    border: 1px solid black;
-    height: 25vh;
+.navbar {
+  background-image: linear-gradient(red, yellow);
+}
+.header {
+  border: 1px solid black;
+  height: 10vh;
 }
 
-.sec2{
-    /* border: 1px solid rgb(207, 23, 23); */
-    height: 25vh;
-    margin: 10px 0px;
-    background-color: #f0d755;
+.sec1 {
+  border: 1px solid black;
+  height: 25vh;
 }
 
-.sec2 .whatsapp{
-    background:url(../images/WahtsAppBG.jpg);
-    border-radius: 0px 0px 70px 0px;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: 'Kanit', sans-serif;
-    font-weight: bolder;
+.sec2 {
+  /* border: 1px solid rgb(207, 23, 23); */
+  height: 25vh;
+  margin: 10px 0px;
+  background-color: #f0d755;
 }
 
-.sec2 .linkToWp{
-    text-decoration: none;
-    color: white;
+.sec2 .whatsapp {
+  background: url(../images/WahtsAppBG.jpg);
+  border-radius: 0px 0px 70px 0px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
 }
 
-.sec2 .linkToWp:hover{
-    text-decoration: underline;
+.sec2 .linkToWp {
+  text-decoration: none;
+  color: white;
 }
 
-.sec2 .whatsAppImg{
-    height: 10vh;
+.sec2 .linkToWp:hover {
+  text-decoration: underline;
 }
 
-.sec2 .offer{
-    border: 1px solid #ffd500;
-    background: #f0d755;
-    border-radius: 0px 0px 70px 0px;
-    font-family: 'Kanit', sans-serif;
-    text-align: center;
+.sec2 .whatsAppImg {
+  height: 10vh;
 }
 
-.sec2 .offerPercent{
-    font-family: 'Bungee Inline', cursive;
-    font-weight: bolder;
-    margin: 0px;
+.sec2 .offer {
+  border: 1px solid #ffd500;
+  background: #f0d755;
+  border-radius: 0px 0px 70px 0px;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
 }
 
-.sec2 .onFirstOrder{
-    font-size: 22px;
+.sec2 .offerPercent {
+  font-family: "Bungee Inline";
+  font-weight: bolder;
+  margin: 0px;
 }
 
-.footer{
-    border: 1px solid black;
-    height: 20vh;
+.sec2 .onFirstOrder {
+  font-size: 22px;
 }
