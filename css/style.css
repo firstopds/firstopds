@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+/* ready-made classess */
+
+.p_0{
+  padding: 0px;
+}
+
+.df{
+  display: flex;
+}
+
+.txt_center{
+  text-align: center;
+}
+
+/* specific classes */
+html{
+  scroll-behavior: smooth;
+}
+
+.infoEmail{
+  background-color: rgba(46, 40, 40, 0.762);
+  color: azure;
+}
+
+.info{
+  text-decoration: none;
+  color: white;
+}
+
+.info:hover{
+  color: white;
+}
 
 .navbar-nav .nav-link.active::after {
   content: "";
@@ -28,50 +60,63 @@
 
 .sec2 {
   /* border: 1px solid rgb(207, 23, 23); */
-  height: 25vh;
+  /* height: 25vh; */
   margin: 10px 0px;
-  background-color: #f0d755;
+  background: url(../images/WahtsAppBG.jpg);
+  /* background-color: #f0d755; */
 }
 
-.sec2 .whatsapp {
-  background: url(../images/WahtsAppBG.jpg);
+.sec2 .offerImage{
+  width: 100%;
+  height: 25vh;
   border-radius: 0px 0px 70px 0px;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
+}
+
+.sec2 .bg_wp{
+  background: url(../images/WahtsAppBG.jpg);
   align-items: center;
+  display: flex;
+  justify-content:center;
+  padding: 10px 0px;
+}
+
+.sec2 .wpText{
+  color: white;
   font-family: "Kanit", sans-serif;
   font-weight: bolder;
 }
 
-.sec2 .linkToWp {
+.sec2 .linkStyle{
   text-decoration: none;
   color: white;
 }
 
-.sec2 .linkToWp:hover {
-  text-decoration: underline;
+.sec2 .linkStyle:hover{
+  text-decoration:underline;
 }
 
-.sec2 .whatsAppImg {
-  height: 10vh;
+.sec2 .scannerStyle{
+  margin-left: 4vw;
+  padding: 10px;
+  background-color: rgba(25, 32, 26, 0.59);
+  border-radius: 10px;
 }
 
-.sec2 .offer {
-  border: 1px solid #ffd500;
-  background: #f0d755;
-  border-radius: 0px 0px 70px 0px;
-  font-family: "Kanit", sans-serif;
+.sec2 .scannerText{
+  color: white;
   text-align: center;
-}
-
-.sec2 .offerPercent {
-  font-family: "Bungee Inline";
-  font-weight: bolder;
   margin: 0px;
+  font-family: "Kanit", sans-serif;
 }
 
-.sec2 .onFirstOrder {
-  font-size: 22px;
+.reveal{
+  position: relative;
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateX(0px);
+  opacity: 1;
 }

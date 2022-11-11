@@ -26,9 +26,12 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="infoEmail container-fluid">
+      <a href="mailto:rupambar12@gmail.com" target="_blank" class="info">info@firstds.com</a>
+    </div>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark pl-5 pr-5">
+    <nav class="navbar navbar-expand-lg navbar-dark pl-5 pr-5 container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -48,34 +51,54 @@
             >Home <span class="sr-only">(current)</span></a
           >
           <a class="nav-link active" href="#">Features</a>
-          <a class="nav-link active" href="#">Pricing</a>
+          <a class="nav-link active" href="#sec4">Pricing</a>
         </div>
       </div>
     </nav>
 
-    <!-- section 1 -->
-    <div class="sec1">Section 1</div>
-    <!-- section 2 -->
-    <div class="row sec2">
-      <div class="col-sm-8 col-md-8 whatsapp">
-        <div>
-          <a href="/" class="linkToWp"
-            ><img
-              src="./images/WhatsApp_Icon.png"
-              alt="WhatsApp_Icon"
-              class="whatsAppImg"
-          /></a>
+    <div class="container-fluid">
+      <!-- section 1 -->
+      <div class="sec1">Section 1</div>
+      <!-- section 2 -->
+      <div class="row sec2 reveal">
+        <div class="col-md-8 p_0">
+          <img src="./images/offer.jpeg" alt="" class="offerImage" />
         </div>
-        <div>
-          <a href="/" class="linkToWp">Contact Us on:<br />+91-1234567890</a>
+        <div class="col-md-4 bg_wp">
+          <div>
+            <a
+              href="https://wa.me/916291004946"
+              target="_blank"
+              class="linkStyle"
+            >
+              <img src="./images/WhatsApp_Icon.png" alt="" height="70px" />
+            </a>
+          </div>
+          <div class="wpText">
+            <a
+              href="https://wa.me/916291004946"
+              target="_blank"
+              class="linkStyle"
+            >
+              <div>Contact us on:</div>
+              <div>(+91) 62910 04946</div>
+            </a>
+          </div>
+          <div class="scannerStyle">
+            <img src="./images/scannerWp2.jpeg" alt="" width="100px" />
+            <p class="scannerText">Scan the QR</p>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4 col-md-4 offer pt-5">
-        <h1 class="offerPercent">70% off</h1>
-        <h3 class="onFirstOrder">on your first order</h3>
-      </div>
-    </div>
 
+      <div class="sec1">Section 1</div>
+      <div class="sec1">Section 1</div>
+      <div class="sec1">Section 1</div>
+      <div class="sec1">Section 1</div>
+      <div class="sec1">Section 1</div>
+      <div class="sec1">Section 1</div>
+      <div class="sec1" id="sec4">Section 1</div>
+    </div>
     <!-- scripts -->
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -91,6 +114,7 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <script src="./script/script.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
