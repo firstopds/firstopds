@@ -6,9 +6,9 @@ function reveal(){
     for(let i = 0; i < reveals.length; i++)
     {
         var windowHeight = window.innerHeight;
-        console.log("windowHeight", windowHeight);
+        // console.log("windowHeight", windowHeight);
         var revealTop = reveals[i].getBoundingClientRect().top;
-        console.log("revealTop", revealTop);
+        // console.log("revealTop", revealTop);
         var revealPoint = 150;
 
         if(revealTop < windowHeight - revealPoint){

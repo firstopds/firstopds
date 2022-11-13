@@ -2,34 +2,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
 /* ready-made classess */
 
-.p_0{
+.p_0 {
   padding: 0px;
 }
 
-.df{
+.df {
   display: flex;
 }
 
-.txt_center{
+.txt_center {
   text-align: center;
 }
 
 /* specific classes */
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.infoEmail{
+body {
+  background-color: #f7e1994b;
+}
+
+.infoEmail {
   background-color: rgba(46, 40, 40, 0.762);
   color: azure;
 }
 
-.info{
+.info {
   text-decoration: none;
   color: white;
 }
 
-.info:hover{
+.info:hover {
   color: white;
 }
 
@@ -58,6 +62,57 @@ html{
   height: 25vh;
 }
 
+/* services */
+.ourServices {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.listItems {
+  margin: 30px;
+  /* border: 1px solid black; */
+  height: 15vh;
+  color: white;
+  background-color: #4c9a6c;
+  border-radius: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 10px 10px black;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
+.lastItem{
+  display: none;
+}
+
+.iconBG {
+  background-color: white;
+  width: 33px;
+  border-radius: 50%;
+  padding: 2px 0px;
+  text-align: center;
+}
+
+.revealService{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.revealService.activeService{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+/* whatsapp */
 .sec2 {
   /* border: 1px solid rgb(207, 23, 23); */
   /* height: 25vh; */
@@ -66,57 +121,57 @@ html{
   /* background-color: #f0d755; */
 }
 
-.sec2 .offerImage{
+.sec2 .offerImage {
   width: 100%;
   height: 25vh;
   border-radius: 0px 0px 70px 0px;
 }
 
-.sec2 .bg_wp{
+.sec2 .bg_wp {
   background: url(../images/WahtsAppBG.jpg);
   align-items: center;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   padding: 10px 0px;
 }
 
-.sec2 .wpText{
+.sec2 .wpText {
   color: white;
   font-family: "Kanit", sans-serif;
   font-weight: bolder;
 }
 
-.sec2 .linkStyle{
+.sec2 .linkStyle {
   text-decoration: none;
   color: white;
 }
 
-.sec2 .linkStyle:hover{
-  text-decoration:underline;
+.sec2 .linkStyle:hover {
+  text-decoration: underline;
 }
 
-.sec2 .scannerStyle{
+.sec2 .scannerStyle {
   margin-left: 4vw;
   padding: 10px;
   background-color: rgba(25, 32, 26, 0.59);
   border-radius: 10px;
 }
 
-.sec2 .scannerText{
+.sec2 .scannerText {
   color: white;
   text-align: center;
   margin: 0px;
   font-family: "Kanit", sans-serif;
 }
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateX(-200px);
   opacity: 0;
   transition: all 2s ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateX(0px);
   opacity: 1;
 }
