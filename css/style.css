@@ -74,10 +74,9 @@ body {
 
 .listItems {
   margin: 30px;
-  /* border: 1px solid black; */
   height: 15vh;
   color: white;
-  background-color: #4c9a6c;
+  background: linear-gradient(to bottom right,#0677a1, #2d4159);
   border-radius: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -88,7 +87,7 @@ body {
   font-weight: bold;
 }
 
-.lastItem{
+.lastItem {
   display: none;
 }
 
@@ -100,14 +99,14 @@ body {
   text-align: center;
 }
 
-.revealService{
+.revealService {
   position: relative;
   transform: translateY(100px);
   opacity: 0;
   transition: all 2s ease;
 }
 
-.revealService.activeService{
+.revealService.activeService {
   transform: translateX(0px);
   opacity: 1;
 }
@@ -164,6 +163,10 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+.clickWP{
+  font-size: 20px;
+}
+
 .reveal {
   position: relative;
   transform: translateX(-200px);
@@ -174,4 +177,55 @@ body {
 .reveal.active {
   transform: translateX(0px);
   opacity: 1;
+}
+
+.cardsCounter{
+  margin: 20px 0px;
+}
+
+.columnStyle{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.counter_box {
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background: radial-gradient(yellow, red);
+}
+
+.icon_border {
+  border: 1px solid goldenrod;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  transform: rotate(45deg);
+  margin: 30px;
+}
+
+.fa_icon{
+  font-size: 40px;
+  /* margin: 15px auto; */
+  transform: rotate(-45deg);
+  /* color: yellow; */
+  margin: 25px auto;
+}
+
+.counter{
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
+.counter_title{
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  height: 50px;
+  margin-bottom: 30px;
 }
