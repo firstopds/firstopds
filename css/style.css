@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
 /* ready-made classess */
-
+body {
+  font-family: "Poppins", sans-serif;
+}
 .p_0 {
   padding: 0px;
 }
@@ -48,9 +50,16 @@ body {
 .navbar-nav .nav-link.active:hover:after {
   width: 100%;
 }
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #3f0071;
+  font-weight: 500;
+}
 
 .navbar {
-  background-image: linear-gradient(red, yellow);
+  background-image: linear-gradient(orange, orange);
 }
 .header {
   border: 1px solid black;
@@ -76,7 +85,7 @@ body {
   margin: 30px;
   height: 15vh;
   color: white;
-  background: linear-gradient(to bottom right,#0677a1, #2d4159);
+  background: linear-gradient(to bottom right, #0677a1, #2d4159);
   border-radius: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -163,7 +172,7 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
-.clickWP{
+.clickWP {
   font-size: 20px;
 }
 
@@ -179,11 +188,11 @@ body {
   opacity: 1;
 }
 
-.cardsCounter{
+.cardsCounter {
   margin: 20px 0px;
 }
 
-.columnStyle{
+.columnStyle {
   display: flex;
   justify-content: center;
   margin: 10px 0px;
@@ -209,7 +218,7 @@ body {
   margin: 30px;
 }
 
-.fa_icon{
+.fa_icon {
   font-size: 40px;
   /* margin: 15px auto; */
   transform: rotate(-45deg);
@@ -217,15 +226,19 @@ body {
   margin: 25px auto;
 }
 
-.counter{
+.counter {
   font-size: 50px;
   font-family: "Kanit", sans-serif;
   font-weight: bold;
 }
 
-.counter_title{
+.counter_title {
   font-size: 20px;
   font-family: "Kanit", sans-serif;
   height: 50px;
   margin-bottom: 30px;
+}
+.navbar-brand img {
+  width: 80px;
+  height: 40px;
 }
