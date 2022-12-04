@@ -30,6 +30,15 @@
     />
   </head>
   <body>
+    <!-- whatsapp sticky button -->
+    <a href="https://wa.me/916291004946" target="_blank" class="float">
+      <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
+    <!-- up Arrow -->
+    <a href="#" class="float1">
+      <i class="fa-solid fa-angle-up my-float1"></i>
+    </a>
+
     <div class="infoEmail container-fluid">
       <a href="mailto:info@firstopds.com" target="_blank" class="info"
         >info@firstopds.com</a
@@ -59,7 +68,7 @@
             >Home <span class="sr-only">(current)</span></a
           >
           <a class="nav-link active" href="#services">Services</a>
-          <a class="nav-link active" href="#">Features</a>
+          <a class="nav-link active" href="#achieve">Acheivements</a>
           <a class="nav-link active" href="#sec4">Pricing</a>
         </div>
       </div>
@@ -125,7 +134,7 @@
 
     <div class="container-fluid">
       <!-- section 1 -->
-      <section id="services">
+      <section id="services" class="servicesClass">
         <h2 class="ourServices">Our Services</h2>
         <div class="row revealService">
           <div class="col-sm listItems">
@@ -222,15 +231,18 @@
             </a>
           </div>
           <div class="wpText">
-            <div class="clickWP">CLICK HERE</div>
             <a
               href="https://wa.me/916291004946"
               target="_blank"
               class="linkStyle"
             >
+              <div class="clickWP">CLICK HERE</div>
               <div>Contact us on:</div>
               <div>(+91) &nbsp;62910 &nbsp;04946</div>
             </a>
+          </div>
+          <div class="cursorClass">
+            <img src="./images/cursor.png" alt="cursor" width="60px" />
           </div>
           <div class="scannerStyle">
             <img src="./images/scannerWp2.jpeg" alt="" width="100px" />
@@ -240,44 +252,48 @@
       </div>
 
       <!-- Cards Counter -->
-      <div class="row cardsCounter">
-        <div class="col-sm-3 columnStyle">
-          <div class="counter_box shadow-lg">
-            <div class="icon_border">
-              <i class="fa-solid fa-trophy fa_icon"></i>
+      <div id="achieve" class="acheivementsStyle">
+        <h1 class="acheivementHeading">Acheivements</h1>
+        <div class="row cardsCounter">
+          <div class="col-sm-3 columnStyle">
+            <div class="counter_box shadow-lg">
+              <div class="icon_border">
+                <i class="fa-solid fa-trophy fa_icon"></i>
+              </div>
+              <div class="counter">1000</div>
+              <div class="counter_title">PLUS HAPPY CUSTOMERS</div>
             </div>
-            <div class="counter">100</div>
-            <div class="counter_title">NUMBER OF HAPPY CUSTOMERS</div>
           </div>
-        </div>
-        <div class="col-sm-3 columnStyle">
-          <div class="counter_box shadow-lg">
-            <div class="icon_border">
-              <i class="fa-solid fa-truck fa_icon"></i>
+          <div class="col-sm-3 columnStyle">
+            <div class="counter_box shadow-lg">
+              <div class="icon_border">
+                <i class="fa-solid fa-truck fa_icon"></i>
+              </div>
+              <div class="counter">650</div>
+              <div class="counter_title">SUCCESSFUL DELIVERIES</div>
             </div>
-            <div class="counter">250</div>
-            <div class="counter_title">SUCCESSFUL DELIVERIES</div>
           </div>
-        </div>
-        <div class="col-sm-3 columnStyle">
-          <div class="counter_box shadow-lg">
-            <div class="icon_border">
-              <i class="fa-solid fa-location-dot fa_icon"></i>
+          <div class="col-sm-3 columnStyle">
+            <div class="counter_box shadow-lg">
+              <div class="icon_border">
+                <i class="fa-solid fa-location-dot fa_icon"></i>
+              </div>
+              <div class="counter">10</div>
+              <div class="counter_title">LOCATIONS</div>
             </div>
-            <div class="counter">8</div>
-            <div class="counter_title">LOCATIONS</div>
           </div>
-        </div>
-        <div class="col-sm-3 columnStyle">
-          <div class="counter_box shadow-lg">
-            <div class="icon_border">
-              <i class="fa-solid fa-star fa_icon"></i>
+          <div class="col-sm-3 columnStyle">
+            <div class="counter_box shadow-lg">
+              <div class="icon_border">
+                <i class="fa-solid fa-star fa_icon"></i>
+              </div>
+              <div class="counter">500</div>
+              <div class="counter_title">PLUS 5 STAR RATINGS</div>
             </div>
-            <div class="counter">1000</div>
-            <div class="counter_title">PLUS 5 STAR RATINGS</div>
           </div>
         </div>
       </div>
+
       <!-- <div class="sec1">Section 1</div>
       <div class="sec1">Section 1</div>
       <div class="sec1">Section 1</div>

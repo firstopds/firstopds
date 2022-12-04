@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 /* ready-made classess */
 body {
   font-family: "Poppins", sans-serif;
@@ -22,7 +23,7 @@ html {
 }
 
 body {
-  background-color: #f7e1994b;
+  /* background-color: #f7e1994b; */
 }
 
 .infoEmail {
@@ -59,7 +60,9 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(orange, orange);
+  /* background-image: linear-gradient(50%lightgrey,50% white); */
+  background-color: rgb(255, 255, 255);
+  /* color:#3043a1 #31226b #2b1867 #3f0071 #FA7D09; */
 }
 .header {
   border: 1px solid black;
@@ -72,20 +75,26 @@ body {
 }
 
 /* services */
+.servicesClass {
+  background-color: white;
+}
+
 .ourServices {
   text-align: center;
   margin-bottom: 0px;
   margin-top: 20px;
   font-family: "Kanit", sans-serif;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
+  color: #31226b;
 }
 
 .listItems {
   margin: 30px;
   height: 15vh;
-  color: white;
-  background: linear-gradient(to bottom right, #0677a1, #2d4159);
+  color: yellow;
+  background: linear-gradient(to bottom right, #3f0071 60%, rgb(0, 255, 255));
+  /* background-color: #3f0071; */
   border-radius: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -173,7 +182,47 @@ body {
 }
 
 .clickWP {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  /* background: linear-gradient(
+    to left,
+    blue,
+    yellow,
+    red
+  ); */
+  background: rgba(255, 0, 0, 0.729);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    background: yellow;
+    -webkit-background-clip: text;
+  color: transparent;
+  }
+}
+
+.cursorClass{
+  position: absolute;
+  animation: moveCursor 2s linear infinite;
+}
+
+@keyframes moveCursor {
+  0%{
+    top: 120px;
+  }
+  50%{
+    top:90px;
+  }
+  80%{
+    top:60px;
+  }
+  100%{
+    top:60px;
+  }
 }
 
 .reveal {
@@ -198,6 +247,19 @@ body {
   margin: 10px 0px;
 }
 
+.acheivementsStyle{
+  text-align: center;
+}
+
+.acheivementHeading{
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #31226b;
+}
+
 .counter_box {
   text-align: center;
   /* border: 1px solid black; */
@@ -206,7 +268,8 @@ body {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  background: radial-gradient(yellow, red);
+  color: #3043a1;
+  background: radial-gradient(rgb(228, 228, 40), cyan);
 }
 
 .icon_border {
@@ -251,4 +314,46 @@ body {
   font-size: 1.5em;
   margin-right: 1em;
   margin-left: 1em;
+}
+
+
+/* floating button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 10;
+}
+
+.my-float{
+	margin-top: 13px;
+  font-size: 36px;
+  margin-left: 2px;
+}
+
+.float1{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 114px;
+  right: 40px;
+  background-color: darkgrey;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 10;
+}
+
+.my-float1{
+	margin-top: 13px;
+  font-size: 36px;
+  margin-left: 2px;
 }
