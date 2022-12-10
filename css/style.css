@@ -4,6 +4,7 @@
 /* ready-made classess */
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(white,white, #57009e, #31226b);
 }
 .p_0 {
   padding: 0px;
@@ -76,7 +77,7 @@ body {
 
 /* services */
 .servicesClass {
-  background-color: white;
+  /* background-color: white; */
 }
 
 .ourServices {
@@ -93,6 +94,7 @@ body {
   margin: 30px;
   height: 15vh;
   color: yellow;
+  cursor: pointer;
   background: linear-gradient(to bottom right, #3f0071 60%, rgb(0, 255, 255));
   /* background-color: #3f0071; */
   border-radius: 0px 20px 0px 20px;
@@ -103,6 +105,10 @@ body {
   box-shadow: 5px 10px 10px black;
   font-family: "Kanit", sans-serif;
   font-weight: bold;
+}
+
+.listItems:hover{
+  background: linear-gradient(to bottom right, #3f0071, rgb(0, 255, 255) 90%);
 }
 
 .lastItem {
@@ -324,7 +330,7 @@ body {
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#0C9;
+	background-color:rgb(13, 172, 61);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
