@@ -4,7 +4,9 @@
 /* ready-made classess */
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(white,white, #57009e, #31226b);
+  /* background: linear-gradient(white,white,#31226b ,#3f0071); */
+  /* background-color: #a767ff; */
+  background-color: #0047ab;
 }
 .p_0 {
   padding: 0px;
@@ -62,7 +64,8 @@ body {
 
 .navbar {
   /* background-image: linear-gradient(50%lightgrey,50% white); */
-  background-color: rgb(255, 255, 255);
+  background-color: #0047ab;
+  /* background-color: #73C2FB; */
   /* color:#3043a1 #31226b #2b1867 #3f0071 #FA7D09; */
 }
 .header {
@@ -87,16 +90,17 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: bold;
   font-size: 40px;
-  color: #31226b;
+  color: #f0d200;
 }
 
 .listItems {
   margin: 30px;
   height: 15vh;
-  color: yellow;
+  color: #3f0071;
   cursor: pointer;
-  background: linear-gradient(to bottom right, #3f0071 60%, rgb(0, 255, 255));
-  /* background-color: #3f0071; */
+  /* background: linear-gradient(to bottom right, #3f0071 60%, rgb(0, 255, 255)); */
+  background: linear-gradient(to bottom right, #f0d200, white);
+  /* background-color: #f0d200; */
   border-radius: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -108,7 +112,9 @@ body {
 }
 
 .listItems:hover{
-  background: linear-gradient(to bottom right, #3f0071, rgb(0, 255, 255) 90%);
+  /* background: linear-gradient(to bottom right, #3f0071, rgb(0, 255, 255) 90%); */
+  background: white;
+  color: #0047ab;
 }
 
 .lastItem {
@@ -263,19 +269,20 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: bold;
   font-size: 40px;
-  color: #31226b;
+  color: #f0d200;
 }
 
 .counter_box {
   text-align: center;
   /* border: 1px solid black; */
   border-radius: 30px;
+  border: 2px solid #31226b;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80%;
   color: #3043a1;
-  background: radial-gradient(rgb(228, 228, 40), cyan);
+  background: radial-gradient(white 10%, #f0d200);
 }
 
 .icon_border {
