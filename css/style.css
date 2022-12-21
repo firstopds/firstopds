@@ -396,7 +396,9 @@ small {
 footer {
   max-width: 100%;
 }
-.col-md {
+.col-md,
+.medi,
+.medi-image {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
   -ms-flex-positive: 1;
