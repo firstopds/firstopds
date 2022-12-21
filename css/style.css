@@ -426,3 +426,18 @@ footer {
 .display-4 {
   font-weight: 600;
 }
+
+@media only screen and (max-width: 851px) {
+  .medi {
+    margin-right: 55px;
+  }
+  .float1 {
+    right: 15px;
+  }
+  .float {
+    right: 15px;
+  }
+  .medi-image {
+    margin-left: 70px;
+  }
+}
