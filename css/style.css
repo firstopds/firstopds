@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 /* ready-made classess */
 body {
   font-family: "Poppins", sans-serif;
@@ -49,7 +49,7 @@ body {
   height: 2px;
   width: 0%;
   transition: 0.5s;
-  background-color: blue;
+  background-color: #f0d200;
 }
 .navbar-nav .nav-link.active:hover:after {
   width: 100%;
@@ -58,8 +58,9 @@ body {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: #3f0071;
+  color: #f0d200;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -111,7 +112,7 @@ body {
   font-weight: bold;
 }
 
-.listItems:hover{
+.listItems:hover {
   /* background: linear-gradient(to bottom right, #3f0071, rgb(0, 255, 255) 90%); */
   background: white;
   color: #0047ab;
@@ -196,7 +197,7 @@ body {
 .clickWP {
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   /* background: linear-gradient(
     to left,
     blue,
@@ -213,27 +214,27 @@ body {
   50% {
     background: yellow;
     -webkit-background-clip: text;
-  color: transparent;
+    color: transparent;
   }
 }
 
-.cursorClass{
+.cursorClass {
   position: absolute;
   animation: moveCursor 2s linear infinite;
 }
 
 @keyframes moveCursor {
-  0%{
+  0% {
     top: 120px;
   }
-  50%{
-    top:90px;
+  50% {
+    top: 90px;
   }
-  80%{
-    top:60px;
+  80% {
+    top: 60px;
   }
-  100%{
-    top:60px;
+  100% {
+    top: 60px;
   }
 }
 
@@ -259,11 +260,11 @@ body {
   margin: 10px 0px;
 }
 
-.acheivementsStyle{
+.acheivementsStyle {
   text-align: center;
 }
 
-.acheivementHeading{
+.acheivementHeading {
   margin-bottom: 0px;
   margin-top: 20px;
   font-family: "Kanit", sans-serif;
@@ -329,44 +330,99 @@ body {
   margin-left: 1em;
 }
 
-
 /* floating button */
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:rgb(13, 172, 61);
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-  z-index: 10;
-}
-
-.my-float{
-	margin-top: 13px;
-  font-size: 36px;
-  margin-left: 2px;
-}
-
-.float1{
+.float {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 114px;
+  bottom: 40px;
   right: 40px;
-  background-color: darkgrey;
-  color: #FFF;
+  background-color: rgb(13, 172, 61);
+  color: #fff;
   border-radius: 50px;
   text-align: center;
   box-shadow: 2px 2px 3px #999;
   z-index: 10;
 }
 
-.my-float1{
-	margin-top: 13px;
+.my-float {
+  margin-top: 13px;
   font-size: 36px;
   margin-left: 2px;
+}
+
+.float1 {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 114px;
+  right: 40px;
+  background-color: darkgrey;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 10;
+}
+
+.my-float1 {
+  margin-top: 13px;
+  font-size: 36px;
+  margin-left: 2px;
+}
+
+.fa-facebook {
+  color: #f0d200;
+}
+.handles .fa-whatsapp {
+  cursor: pointer;
+  color: #f0d200;
+}
+.handles .fa-whatsapp:hover {
+  color: #fff;
+}
+.fa-instagram {
+  color: #f0d200;
+}
+footer h5 {
+  color: #f0d200;
+}
+small {
+  color: #f0d200;
+}
+.xyz li a {
+  color: #f0d200;
+}
+footer {
+  max-width: 100%;
+}
+.col-md {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-left: 65px;
+}
+.pricing-header {
+  color: #f0d200;
+}
+.card {
+  background-color: #0047ab;
+}
+.card-header {
+  background-color: #f0d200;
+}
+.card h4 {
+  color: #0047ab;
+}
+.card-body h1 {
+  color: #f0d200;
+}
+.card-body button {
+  color: #0047ab;
+  background-color: #f0d200;
+}
+.display-4 {
+  font-weight: 600;
 }
