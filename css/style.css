@@ -7,6 +7,7 @@ body {
   /* background: linear-gradient(white,white,#31226b ,#3f0071); */
   /* background-color: #a767ff; */
   background-color: #0047ab;
+  overflow-x: hidden;
 }
 .p_0 {
   padding: 0px;
@@ -66,6 +67,9 @@ body {
 .navbar {
   /* background-image: linear-gradient(50%lightgrey,50% white); */
   background-color: #0047ab;
+  position: sticky;
+  top: 0;
+  z-index: 9999999999;
   /* background-color: #73C2FB; */
   /* color:#3043a1 #31226b #2b1867 #3f0071 #FA7D09; */
 }
@@ -431,7 +435,8 @@ footer {
 
 @media only screen and (max-width: 851px) {
   body {
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x: hidden !important;
   }
   .medi {
     margin-right: 55px;
@@ -443,7 +448,9 @@ footer {
   }
   .float {
     position: fixed;
+    bottom: 0;
     right: 70px;
+    z-index: 10000;
   }
   .medi-image {
     margin-left: 90px;
